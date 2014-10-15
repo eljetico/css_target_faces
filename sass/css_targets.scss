@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+html, body {
+	height: 100%;
+	width: 100%;
+	background-color: #000000;
+}
+
+/* COLORS */
+$gold: #F9E526;
+$red: #EF3340;
+$blue: #00BCE2;
+$black: #2B2926;
+
+$nfaa-blue: rgba(50, 50, 100, 1);
+
+$container-dimension: 520px;
+$container-padding: 10px;
+
+$target-diameter: ($container-dimension - ($container-padding * 2));
+$ring-border-width: 1px;
+
+$ten-rings-padding: (($target-diameter / 10) - 2) / 2;
+$ten-rings-penultimate-ring-padding: $ten-rings-padding / 2;
+
+$five-rings-padding: (($target-diameter / 5) - 1) / 2;
+$five-rings-penultimate-ring-padding: $five-rings-padding / 2;
+
+$x-ring-padding: 0;
+
+.container {
+	box-sizing: border-box;
+	padding: $container-padding;
+	background-color: white;
+	height: $container-dimension;
+	width: $container-dimension;
+	position: relative;
+}
+
+.fita, .fita_6, .container.worcester div, .container.nfaa div {
+	height: 100%;
+	width: 100%;
+	border: $ring-border-width solid #1a1a1a;
+	border-radius: 50%;
+	padding: $ten-rings-padding;
+	box-sizing: border-box;
+	position: relative;
+}
+
+.fita_6, .container.worcester div, .container.nfaa div {
+	padding: $five-rings-padding;
+}
+
+.first-ring {
+	width: $target-diameter;
+	height: $target-diameter;
+	border-color: black;
+}
+
+.gold {
+	background-color: $gold;
+}
+
+.red {
+	background-color: $red;
+}
+
+.blue {
+	background-color: $blue;
+}
+
+.black {
+	background-color: $black;
+}
+
+.ten_ring {
+	padding: $ten-rings-penultimate-ring-padding;
+}
+
+.fita_6_10_ring, .container.nfaa div.nfaa_5_ring {
+	padding: $five-rings-penultimate-ring-padding;
+}
+
+.inner_ten, .container.nfaa div.inner_ten {
+	padding: $x-ring-padding;
+}
+
+.container.worcester div {
+	background-color: $black;
+	border-color: white;
+}
+
+.container.worcester div.worcester_5_ring {
+	background-color: white;
+	border-color: $black;
+}
+
+.container.nfaa div {
+	background-color: $nfaa-blue;
+	border-color: white;
+}
+
+.container.nfaa div.nfaa_5_ring {
+	background-color: white;
+}
+
+.container.nfaa div.nfaa_inner_5_ring {
+	background-color: white;
+	border-color: $nfaa-blue;
+}

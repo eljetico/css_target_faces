@@ -1,0 +1,39 @@
+/*
+Syntax error: Invalid charset directive '@charset': expected string.
+        on line 1 of ./sass/css_targets.sass
+
+1: @charset "UTF-8";
+2: 
+3: html, body {
+4: 	height: 100%;
+5: 	width: 100%;
+6: 	background-color: #000000;
+
+Backtrace:
+./sass/css_targets.sass:1
+/Users/tdavies/.rbenv/versions/1.9.3-p0/lib/ruby/gems/1.9.1/gems/sass-3.3.10/lib/sass/engine.rb:872:in `parse_charset_directive'
+/Users/tdavies/.rbenv/versions/1.9.3-p0/lib/ruby/gems/1.9.1/gems/sass-3.3.10/lib/sass/engine.rb:806:in `parse_directive'
+/Users/tdavies/.rbenv/versions/1.9.3-p0/lib/ruby/gems/1.9.1/gems/sass-3.3.10/lib/sass/engine.rb:653:in `parse_line'
+/Users/tdavies/.rbenv/versions/1.9.3-p0/lib/ruby/gems/1.9.1/gems/sass-3.3.10/lib/sass/engine.rb:543:in `build_tree'
+/Users/tdavies/.rbenv/versions/1.9.3-p0/lib/ruby/gems/1.9.1/gems/sass-3.3.10/lib/sass/engine.rb:562:in `block in append_children'
+/Users/tdavies/.rbenv/versions/1.9.3-p0/lib/ruby/gems/1.9.1/gems/sass-3.3.10/lib/sass/engine.rb:561:in `each'
+/Users/tdavies/.rbenv/versions/1.9.3-p0/lib/ruby/gems/1.9.1/gems/sass-3.3.10/lib/sass/engine.rb:561:in `append_children'
+/Users/tdavies/.rbenv/versions/1.9.3-p0/lib/ruby/gems/1.9.1/gems/sass-3.3.10/lib/sass/engine.rb:412:in `_to_tree'
+/Users/tdavies/.rbenv/versions/1.9.3-p0/lib/ruby/gems/1.9.1/gems/sass-3.3.10/lib/sass/engine.rb:274:in `render'
+/Users/tdavies/.rbenv/versions/1.9.3-p0/lib/ruby/gems/1.9.1/gems/sass-3.3.10/lib/sass/plugin/compiler.rb:378:in `update_stylesheet'
+/Users/tdavies/.rbenv/versions/1.9.3-p0/lib/ruby/gems/1.9.1/gems/sass-3.3.10/lib/sass/plugin/compiler.rb:189:in `block in update_stylesheets'
+/Users/tdavies/.rbenv/versions/1.9.3-p0/lib/ruby/gems/1.9.1/gems/sass-3.3.10/lib/sass/plugin/compiler.rb:186:in `each'
+/Users/tdavies/.rbenv/versions/1.9.3-p0/lib/ruby/gems/1.9.1/gems/sass-3.3.10/lib/sass/plugin/compiler.rb:186:in `update_stylesheets'
+/Users/tdavies/.rbenv/versions/1.9.3-p0/lib/ruby/gems/1.9.1/gems/sass-3.3.10/lib/sass/plugin/compiler.rb:357:in `on_file_changed'
+/Users/tdavies/.rbenv/versions/1.9.3-p0/lib/ruby/gems/1.9.1/gems/sass-3.3.10/lib/sass/plugin/compiler.rb:250:in `block in watch'
+/Users/tdavies/.rbenv/versions/1.9.3-p0/lib/ruby/gems/1.9.1/gems/sass-3.3.10/vendor/listen/lib/listen/listener.rb:252:in `call'
+/Users/tdavies/.rbenv/versions/1.9.3-p0/lib/ruby/gems/1.9.1/gems/sass-3.3.10/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+/Users/tdavies/.rbenv/versions/1.9.3-p0/lib/ruby/gems/1.9.1/gems/sass-3.3.10/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+/Users/tdavies/.rbenv/versions/1.9.3-p0/lib/ruby/gems/1.9.1/gems/sass-3.3.10/vendor/listen/lib/listen/adapters/polling.rb:48:in `call'
+/Users/tdavies/.rbenv/versions/1.9.3-p0/lib/ruby/gems/1.9.1/gems/sass-3.3.10/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
+/Users/tdavies/.rbenv/versions/1.9.3-p0/lib/ruby/gems/1.9.1/gems/sass-3.3.10/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Invalid charset directive '@charset': expected string.\A         on line 1 of ./sass/css_targets.sass\A \A 1: @charset \"UTF-8\";\A 2: \A 3: html, body {\A 4: 	height: 100%;\A 5: 	width: 100%;\A 6: 	background-color: #000000;"; }
