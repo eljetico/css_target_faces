@@ -1,16 +1,33 @@
 html, body {
   height: 100%;
   width: 100%;
-  background-color: #000000; }
+  background-color: #FFFFFF;
+  font-family: "Helvetica Neue" Helvetica Arial sans-serif;
+  color: #000000; }
 
 /* COLORS */
+body {
+  padding: 20px; }
+
+a {
+  text-decoration: none; }
+
 .container {
+  float: left;
   box-sizing: border-box;
   padding: 10px;
   background-color: white;
   height: 520px;
   width: 520px;
-  position: relative; }
+  position: relative;
+  margin: 20px; }
+
+div.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+  height: 0;
+  width: 0; }
 
 .fita, .fita_6, .container.worcester div, .container.nfaa div {
   height: 100%;

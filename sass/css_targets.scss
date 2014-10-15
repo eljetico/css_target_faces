@@ -3,7 +3,9 @@
 html, body {
 	height: 100%;
 	width: 100%;
-	background-color: #000000;
+	background-color: #FFFFFF;
+	font-family: "Helvetica Neue" Helvetica Arial sans-serif;
+	color: #000000;
 }
 
 /* COLORS */
@@ -28,13 +30,33 @@ $five-rings-penultimate-ring-padding: $five-rings-padding / 2;
 
 $x-ring-padding: 0;
 
+body {
+	padding: 20px;
+}
+
+a {
+	text-decoration: none;
+}
+
 .container {
+	float: left;
 	box-sizing: border-box;
 	padding: $container-padding;
 	background-color: white;
 	height: $container-dimension;
 	width: $container-dimension;
 	position: relative;
+	margin: 20px
+}
+
+div.clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+		height: 0;
+		width: 0;
+  }
 }
 
 .fita, .fita_6, .container.worcester div, .container.nfaa div {
