@@ -2,7 +2,7 @@ html, body {
   height: 100%;
   width: 100%;
   background-color: #FFFFFF;
-  font-family: "Helvetica Neue" Helvetica Arial sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #000000; }
 
 /* COLORS */
