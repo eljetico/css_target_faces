@@ -29,7 +29,7 @@ div.clearfix:after {
   height: 0;
   width: 0; }
 
-.fita, .fita_6, .container.worcester div, .container.nfaa div {
+.wa, .wa_6, .container.worcester div, .container.nfaa div {
   height: 100%;
   width: 100%;
   border: 1px solid #1a1a1a;
@@ -38,7 +38,7 @@ div.clearfix:after {
   box-sizing: border-box;
   position: relative; }
 
-.fita_6, .container.worcester div, .container.nfaa div {
+.wa_6, .container.worcester div, .container.nfaa div {
   padding: 49.5px; }
 
 .first-ring {
@@ -61,7 +61,7 @@ div.clearfix:after {
 .ten_ring {
   padding: 12px; }
 
-.fita_6_10_ring, .container.nfaa div.nfaa_5_ring, .container.worcester div.worcester_5_ring {
+.wa_6_10_ring, .container.nfaa div.nfaa_5_ring, .container.worcester div.worcester_5_ring {
   padding: 24.75px; }
 
 .inner_ten, .container.nfaa div.inner_ten {
