@@ -9,12 +9,127 @@ html, body {
 }
 
 /* COLORS */
-$gold: #F9E526;
-$red: #EF3340;
-$blue: #00BCE2;
+/* WA SPEC */
+/* 
+	GOLD: 
+		{
+		  "hex":"#FFE552",
+		  "websafe":"#ffcc66",
+		  "rgb":{
+		    "r":255,
+		    "g":229,
+		    "b":82
+		  },
+		  "hsl":{
+		    "h":51,
+		    "s":100,
+		    "l":66
+		  },
+		  "hsb":{
+		    "h":51,
+		    "s":68,
+		    "b":100
+		  },
+		  "cmyk":{
+		    "c":0,
+		    "m":10,
+		    "y":68,
+		    "k":0
+		  }
+		}
+		
+	RED:
+		{
+		  "hex":"#F65058",
+		  "websafe":"#ff6666",
+		  "rgb":{
+		    "r":246,
+		    "g":80,
+		    "b":88
+		  },
+		  "hsl":{
+		    "h":357,
+		    "s":90,
+		    "l":64
+		  },
+		  "hsb":{
+		    "h":357,
+		    "s":67,
+		    "b":96
+		  },
+		  "cmyk":{
+		    "c":0,
+		    "m":67,
+		    "y":64,
+		    "k":4
+		  }
+		}
+		
+	BLUE:
+		{
+		  "hex":"#00B4E4",
+		  "websafe":"#00cccc",
+		  "rgb":{
+		    "r":0,
+		    "g":180,
+		    "b":228
+		  },
+		  "hsl":{
+		    "h":193,
+		    "s":100,
+		    "l":45
+		  },
+		  "hsb":{
+		    "h":193,
+		    "s":100,
+		    "b":89
+		  },
+		  "cmyk":{
+		    "c":"74",
+		    "m":"0",
+		    "y":"10",
+		    "k":"0"
+		  }
+		}
+*/
+
+$gold: #FFE552;
+$red: #F65058;
+$blue: #00B4E4;
 $black: #2B2926;
 
-$nfaa-blue: rgba(50, 50, 100, 1); // don't have an accurate color spec
+/*
+	NFAA: no spec found
+	BLUE:
+		{
+		  "hex":"#323264",
+		  "websafe":"#333366",
+		  "rgb":{
+		    "r":50,
+		    "g":50,
+		    "b":100
+		  },
+		  "hsl":{
+		    "h":240,
+		    "s":33,
+		    "l":29
+		  },
+		  "hsb":{
+		    "h":240,
+		    "s":50,
+		    "b":39
+		  },
+		  "cmyk":{
+		    "c":50,
+		    "m":50,
+		    "y":0,
+		    "k":61
+		  }
+		}
+	
+*/
+
+$nfaa-blue: #323264; // don't have an accurate color spec
 
 $container-dimension: 520px;
 $container-padding: 10px;
